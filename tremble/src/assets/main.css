@@ -4,14 +4,11 @@
     padding: 0;
 }
 
-body
+#app
 {
-    height: calc(100dvh + 100px);
-    width: calc(100dvw + 100px);
-    transform: translate(-10px, -10px);
+    height: 100dvh;
+    width: 100dvw;
     overflow: hidden;
-    font-family: monospace;
-    word-break: break-all;
     background-color: #000000;
-    color: rgb(109, 236, 109);
+    position: relative;
 }

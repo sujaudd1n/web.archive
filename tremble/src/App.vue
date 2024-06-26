@@ -46,5 +46,12 @@ texts.value = generateText();
   color: green;
   font-size: 20px;
   animation: tremble 800ms linear 0s infinite;
+  word-break: break-all;
+  font-family: monospace;
+  position: absolute;
+  top: -10px;
+  left: -10px;
+  right: -70px;
+  bottom: -10px;
 }
 </style>
